@@ -1,12 +1,12 @@
 {
-  "name": "ai-metadata-api",
+  "name": "ai-metadata-generator",
   "version": "1.0.0",
-  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "json2csv": "^6.0.0"
   }
 }
